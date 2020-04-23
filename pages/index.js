@@ -1,13 +1,6 @@
 import React from "react";
+import { ModulePage } from "../components/modulePage";
 
 export default function Index() {
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col">
-          <p>Hello Next.js</p>
-        </div>
-      </div>
-    </div>
-  );
+  return <ModulePage>index, nextjs</ModulePage>;
 }

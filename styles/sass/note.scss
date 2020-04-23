@@ -1,0 +1,72 @@
+@import "constants.scss";
+
+.modal-content {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.302),
+    0 4px 8px 3px rgba(60, 64, 67, 0.149);
+}
+
+.modal-backdrop {
+  background-color: #c4c4c4;
+}
+
+.ui-na-note_title {
+  font-size: $font-size_title;
+  color: $black;
+  font-family: $font-titles;
+  padding: 0.5rem 1rem;
+  webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.ui-na-note_title input {
+  border: 0;
+}
+
+.ui-na-note_title input:focus {
+  outline: none !important;
+}
+
+.ui-na-note_body {
+  font-size: $font-size_body;
+  color: $black;
+  font-family: $font-body;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.ui-na-note_body.edit {
+  font-size: $font-size_body;
+  color: $black;
+  font-family: $font-body;
+  min-width: 464px;
+  border: 0px solid;
+  resize: none;
+}
+
+.ui-na-note_body textarea {
+  padding: 0;
+}
+
+.ui-na-note_body.edit:focus {
+  outline: none !important;
+}
+
+/* width */
+.ui-na-note_body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.ui-na-note_body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.ui-na-note_body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.ui-na-note_body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

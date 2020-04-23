@@ -1,0 +1,26 @@
+@import "../styles/sass/constants.scss";
+
+.ui-na-note_fav_button {
+  border: 0 solid;
+  border-radius: 2rem;
+  padding: 4px 8px 6px 8px;
+  background-color: transparent;
+  color: #9a9a9a;
+  -webkit-transition: background-color 0.7s ease-out;
+  -moz-transition: background-color 0.7s ease-out;
+  -o-transition: background-color 0.7s ease-out;
+  transition: background-color 0.7s ease-out;
+}
+
+.ui-na-note_fav_button:hover {
+  background-color: #ababab42;
+  color: #525252;
+  -webkit-transition: background-color 0.7s ease-out;
+  -moz-transition: background-color 0.7s ease-out;
+  -o-transition: background-color 0.7s ease-out;
+  transition: background-color 0.7s ease-out;
+}
+
+.ui-na-note_fav_button:focus {
+  outline: none !important;
+}

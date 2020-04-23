@@ -23,13 +23,23 @@
   },
   "homepage": "https://github.com/raulAR92/NR-notes#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@webdeb/next-styles": "^1.0.8",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.4.1",
     "jest": "^25.3.0",
-    "next": "^9.3.4",
+    "next": "^9.3.5",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-textarea-autosize": "^7.1.2",
+    "storybook": "^5.3.18"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -37,7 +47,11 @@
     "@storybook/addon-knobs": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",
+    "@storybook/preset-scss": "^1.0.2",
     "@storybook/react": "^5.3.18",
-    "babel-loader": "^8.1.0"
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.2",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.4"
   }
 }
